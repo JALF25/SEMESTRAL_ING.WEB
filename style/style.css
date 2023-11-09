@@ -1,0 +1,45 @@
+:root{
+    --principal_color:red;
+}
+html {
+    box-sizing: border-box;
+    /*Para resetear el tamalo de la caja*/
+    scroll-snap-type: y mandatory;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.h{
+    background-color: aqua;
+}
+.regs{
+    display: grid;
+    grid-template-columns: 2 1fr;
+}
+a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000;
+}
+.carr{
+    height:fit-content;
+}
+.pics{
+    height: 300px;
+    width: 200px;
+}
+.header-log,.articules{
+    background-color: var(--principal_color);
+    margin: 10px;
+}
+.forms{
+    padding: 10px;
+}
+footer{
+    margin-top: 20px;
+}
